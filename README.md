@@ -65,6 +65,16 @@ Please organize the downloaded datasets in the `./data/` directory as shown belo
         └── GT/
 ```
 
+## ⚡ Run Inference
+
+```bash
+# Activate the environment
+conda activate Dedarkening
+
+# Evaluate on the LOLv1 dataset
+python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_models/LOLv1.pth --dataset LOLv1 --GT_mean --sampling -n 70
+```
+
 ## Results
 ### Qualitative results
 ![..](figure.svg)
