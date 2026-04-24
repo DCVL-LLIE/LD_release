@@ -16,11 +16,16 @@ Journal of Visual Communication and Image Representation (JVCIR)
 ```bash
 conda create -n Retinexformer python=3.7
 conda activate Retinexformer
-'''
+```
 
 ### 📦 Install Dependencies
 ```bash
 conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 pip install matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm tensorboard
 pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpips
+```
+
+### 🛠️ Install BasicSR
+```bash
+python setup.py develop --no_cuda_ext
 ```
