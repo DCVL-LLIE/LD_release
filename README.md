@@ -99,19 +99,19 @@ python Enhancement/test_from_dataset.py --opt Options/SDSD_outdoor.yml --weights
 # Activate the environment
 conda activate Dedarkening
 
-# Train on LOL-v1
+# Train on the LOL-v1
 python3 basicsr/train.py --opt Options/LOLv1.yml
 
-# Train on LOL-v2-real
+# Train on the LOL-v2-real
 python3 basicsr/train.py --opt Options/LOLv2_real.yml
 
-# Train on LOL-v2-synthetic
+# Train on the LOL-v2-synthetic
 python3 basicsr/train.py --opt Options/LOLv2_synthetic.yml
 
-# Train on SDSD-indoor dataset
+# Train on the SDSD-indoor dataset
 python3 basicsr/train.py --opt Options/SDSD_indoor.yml
 
-# Train on SDSD-outdoor dataset
+# Train on the SDSD-outdoor dataset
 python3 basicsr/train.py --opt Options/SDSD_outdoor.yml
 ```
 
