@@ -90,7 +90,7 @@ python Enhancement/test_from_dataset.py --opt Options/SDSD_outdoor.yml --weights
 
 > **💡 Tip: Deterministic Inference** > If you want to run deterministic inference, simply remove the `--sampling` and `-n 70` arguments from the command:
 > ```bash
-> python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights _FINISH/LOLv1.pth --dataset LOLv1 --GT_mean
+> python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_weights/LOLv1.pth --dataset LOLv1 --GT_mean
 > ```
 > 
 ## Results
