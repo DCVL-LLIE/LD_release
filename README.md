@@ -6,10 +6,6 @@ This repository provides the official PyTorch implementation of the paper:
 **Jaehun Jung** and [**Wonjun Kim** (Corresponding Author)](https://sites.google.com/view/dcvl)  
 Journal of Visual Communication and Image Representation (JVCIR)
 
-## Results
-### Qualitative results
-![..](figure.svg)
-
 ## ⚙️ Installation
 
 ### 🐍 Environment Setup
@@ -29,3 +25,8 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 ```bash
 python setup.py develop --no_cuda_ext
 ```
+
+
+## Results
+### Qualitative results
+![..](figure.svg)
