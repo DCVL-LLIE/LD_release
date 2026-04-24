@@ -28,7 +28,7 @@ python setup.py develop --no_cuda_ext
 
 ## 📂 Datasets
 
-All datasets used for evaluation can be downloaded from this [Repository](https://github.com/caiyuanhao1998/retinexformer).
+All datasets used for **training and evaluation** can be downloaded from this [Repository](https://github.com/caiyuanhao1998/retinexformer).
 
 Please organize the downloaded datasets in the `./data/` directory as shown below:
 
