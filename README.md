@@ -30,6 +30,41 @@ python setup.py develop --no_cuda_ext
 
 All datasets used for evaluation can be downloaded from this [Repository](https://github.com/caiyuanhao1998/retinexformer).
 
+Please organize the downloaded datasets in the `./data/` directory as shown below:
+
+```text
+./data/
+├── LOLv1/
+│   ├── Train/
+│   │   ├── input/
+│   │   └── target/
+│   └── Test/
+│       ├── input/
+│       └── target/
+├── LOLv2/
+│   ├── Real_captured/
+│   │   ├── Train/
+│   │   │   ├── Low/
+│   │   │   └── Normal/
+│   │   └── Test/
+│   │       ├── Low/
+│   │       └── Normal/
+│   └── Synthetic/
+│       ├── Train/
+│       │   ├── Low/
+│       │   └── Normal/
+│       └── Test/
+│           ├── Low/
+│           └── Normal/
+└── SDSD/
+    ├── indoor_static_np/
+    │   ├── input/
+    │   └── GT/
+    └── outdoor_static_np/
+        ├── input/
+        └── GT/
+```
+
 ## Results
 ### Qualitative results
 ![..](figure.svg)
