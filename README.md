@@ -71,8 +71,20 @@ Please organize the downloaded datasets in the `./data/` directory as shown belo
 # Activate the environment
 conda activate Dedarkening
 
-# Evaluate on the LOLv1 dataset
-python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_models/LOLv1.pth --dataset LOLv1 --GT_mean --sampling -n 70
+# Evaluate on the LOL-v1 dataset
+python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_weights/LOLv1.pth --dataset LOLv1 --GT_mean --sampling -n 70
+
+# Evaluate on the LOL-v2-real dataset
+python Enhancement/test_from_dataset.py --opt Options/LOLv2_real.yml --weights pre_weights/LOLv2_real.pth --dataset LOLv2_real --GT_mean --sampling -n 70
+
+# Evaluate on the LOL-v2-syn dataset
+python Enhancement/test_from_dataset.py --opt Options/LOLv2_synthesis.yml --weights pre_weights/LOLv2_synthesis.pth --dataset LOLv2_syn --GT_mean --sampling -n 70
+
+# Evaluate on the SDSD-indoor dataset
+python Enhancement/test_from_dataset.py --opt Options/SDSD_indoor.yml --weights pre_weights/SDSD_indoor.pth --dataset SDSD_indoor --GT_mean --sampling -n 70
+
+# Evaluate on the SDSD-outdoor dataset
+python Enhancement/test_from_dataset.py --opt Options/SDSD_outdoor.yml --weights pre_weights/SDSD_outdoor.pth --dataset SDSD_outdoor --GT_mean --sampling -n 70
 ```
 
 > **💡 Tip: Deterministic Inference** > If you want to run deterministic inference, simply remove the `--sampling` and `-n 70` arguments from the command:
