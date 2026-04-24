@@ -10,8 +10,8 @@ Journal of Visual Communication and Image Representation (JVCIR)
 
 ### 🐍 Environment Setup
 ```bash
-conda create -n Retinexformer python=3.7
-conda activate Retinexformer
+conda create -n Dedarkening python=3.7
+conda activate Dedarkening
 ```
 
 ### 📦 Install Dependencies
