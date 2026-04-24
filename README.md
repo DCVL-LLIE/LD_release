@@ -115,6 +115,9 @@ python3 basicsr/train.py --opt Options/SDSD_indoor.yml
 python3 basicsr/train.py --opt Options/SDSD_outdoor.yml
 ```
 
-## Results
-### Qualitative results
-![..](figure.svg)
+## 📊 Results
+
+### Quantitative Results
+![Quantitative Results](table.png) 
+### Qualitative Results
+![Qualitative Results](figure.svg)
