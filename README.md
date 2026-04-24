@@ -92,7 +92,29 @@ python Enhancement/test_from_dataset.py --opt Options/SDSD_outdoor.yml --weights
 > ```bash
 > python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_weights/LOLv1.pth --dataset LOLv1 --GT_mean
 > ```
-> 
+
+## 🏋️ Training
+
+```bash
+# Activate the environment
+conda activate Dedarkening
+
+# Train on LOL-v1
+python3 basicsr/train.py --opt Options/LOLv1.yml
+
+# Train on LOL-v2-real
+python3 basicsr/train.py --opt Options/LOLv2_real.yml
+
+# Train on LOL-v2-synthetic
+python3 basicsr/train.py --opt Options/LOLv2_synthetic.yml
+
+# Train on SDSD-indoor dataset
+python3 basicsr/train.py --opt Options/SDSD_indoor.yml
+
+# Train on SDSD-outdoor dataset
+python3 basicsr/train.py --opt Options/SDSD_outdoor.yml
+```
+
 ## Results
 ### Qualitative results
 ![..](figure.svg)
