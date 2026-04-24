@@ -28,7 +28,7 @@ python setup.py develop --no_cuda_ext
 
 ## 📂 Datasets
 
-All datasets used for **training and evaluation** can be downloaded from this [Repository](https://github.com/caiyuanhao1998/retinexformer).
+All datasets used for **training and evaluation** can be downloaded from [Repository](https://github.com/caiyuanhao1998/retinexformer).
 
 Please organize the downloaded datasets in the `./data/` directory as shown below:
 
@@ -66,7 +66,7 @@ Please organize the downloaded datasets in the `./data/` directory as shown belo
 ```
 
 ## ⚡ Run Inference
-You can download our pre-trained models from **[Google Drive](https://drive.google.com/drive/folders/1eRg2nJJIce9i5QQJxNwsBZyKD3qSn9rm?usp=drive_link)**. After downloading, please place the model weights (`.pth` files) in the `./pre_weights/` folder.
+You can download our pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1eRg2nJJIce9i5QQJxNwsBZyKD3qSn9rm?usp=drive_link). After downloading, please place the model weights (`.pth` files) in the `./pre_weights/` folder.
 
 ```bash
 # Activate the environment
