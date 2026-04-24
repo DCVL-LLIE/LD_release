@@ -75,6 +75,11 @@ conda activate Dedarkening
 python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights pre_models/LOLv1.pth --dataset LOLv1 --GT_mean --sampling -n 70
 ```
 
+> **💡 Tip: Deterministic Inference** > If you want to run deterministic inference, simply remove the `--sampling` and `-n 70` arguments from the command:
+> ```bash
+> python Enhancement/test_from_dataset.py --opt Options/LOLv1.yml --weights _FINISH/LOLv1.pth --dataset LOLv1 --GT_mean
+> ```
+> 
 ## Results
 ### Qualitative results
 ![..](figure.svg)
