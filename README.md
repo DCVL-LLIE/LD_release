@@ -12,7 +12,7 @@ Journal of Visual Communication and Image Representation (JVCIR)
 
 ## ⚙️ Installation
 
-### 🐍 Make Conda Environment
+### 🐍 Environment Setup
 ```bash
 conda create -n Retinexformer python=3.7
 conda activate Retinexformer
@@ -25,7 +25,7 @@ pip install matplotlib scikit-learn scikit-image opencv-python yacs joblib natso
 pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpips
 ```
 
-### 🛠️ Install BasicSR
+### 🛠️ Build BasicSR
 ```bash
 python setup.py develop --no_cuda_ext
 ```
