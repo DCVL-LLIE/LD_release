@@ -121,3 +121,26 @@ python3 basicsr/train.py --opt Options/SDSD_outdoor.yml
 ![Quantitative Results](table.png) 
 ### Qualitative Results
 ![Qualitative Results](figure.svg)
+
+## 📎 Citation
+
+If you find this work helpful, please consider citing:
+
+```bibtex
+@article{jung2026low,
+  title={Low-light Image Enhancement via Distribution of Latent Transitions},
+  author={Jung, Jaehun and Kim, Wonjun},
+  journal={Journal of Visual Communication and Image Representation},
+  pages={104825},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
+---
+
+## 📫 Contact
+
+If you have any questions or issues, feel free to reach out:
+
+- **Jaehun Jung**: [brian111725@konkuk.ac.kr]  
