@@ -4,7 +4,8 @@ This repository provides the official PyTorch implementation of the paper:
 **["Low-light Image Enhancement via Distribution of Latent Transitions"](https://www.sciencedirect.com/science/article/pii/S1047320326001203?dgcid=coauthor)** 
 
 **Jaehun Jung** and [**Wonjun Kim** (Corresponding Author)](https://sites.google.com/view/dcvl)  
-Journal of Visual Communication and Image Representation (JVCI)
+
+**Journal of Visual Communication and Image Representation (JVCI)**
 
 ## ⚙️ Installation
 
