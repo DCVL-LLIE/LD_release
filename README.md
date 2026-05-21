@@ -5,7 +5,7 @@ This repository provides the official PyTorch implementation of the paper:
 
 **Jaehun Jung** and [**Wonjun Kim** (Corresponding Author)](https://sites.google.com/view/dcvl)  
 
-_Journal of Visual Communication and Image Representation (JVCI)_
+***Journal of Visual Communication and Image Representation (JVCI)***
 
 ## ⚙️ Installation
 
