@@ -131,6 +131,7 @@ If you find this work helpful, please consider citing:
   title={Low-light Image Enhancement via Distribution of Latent Transitions},
   author={Jung, Jaehun and Kim, Wonjun},
   journal={Journal of Visual Communication and Image Representation},
+  volume = {118},
   pages={104825},
   year={2026},
   publisher={Elsevier}
